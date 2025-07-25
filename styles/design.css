@@ -173,3 +173,117 @@
 .price {
   margin-bottom: 30px;
 }
+
+.Flower-and-plant-lover {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  margin-top: 200px;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+}
+
+.f-title {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.f-subtitle > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.trusted-badge {
+  position: absolute;
+  top: -128px;
+  right: 510px;
+  height: auto;
+  width: 290px;
+}
+
+.deal-zabo {
+  max-width: 66%;
+  height: auto;
+}
+
+.deal-ana {
+  max-width: 33%;
+  height: auto;
+}
+
+.deal {
+  position: relative;
+  text-align: center;
+}
+
+.deal a {
+  color: white;
+}
+
+.deal {
+  position: relative;
+  overflow: hidden;
+}
+
+.deal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.6)
+  );
+  z-index: 1;
+  border-radius: 16px;
+}
+
+.deal img {
+  border-radius: 16px;
+  display: block;
+  opacity: 1;
+  border-radius: 16px;
+  position: relative;
+  z-index: 0;
+}
+
+.offer {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.offer-2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.latest-deals-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  gap: 20px;
+}
+
+.latest-deals-images {
+  gap: 20px;
+}
+
+.latest-deals {
+  margin-bottom: 120px;
+}
+
+.latest-deals-content {
+  margin-bottom: 120px;
+}
+
