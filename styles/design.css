@@ -68,3 +68,70 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.deal .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+.font-50 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.font-22 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+.header-links > ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.header-links > ul > li > a {
+  text-decoration: none;
+}
+
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.banner-title {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: flex-start;
+  gap: 13px;
+  padding-bottom: 0px;
+  margin-top: 60px;
+}
+
+.banner-subtitle {
+  font-size: 22px;
+}
