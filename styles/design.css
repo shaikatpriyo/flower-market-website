@@ -1,0 +1,70 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.body {
+  background-color: #f5f8ff;
+}
+
+.container {
+  max-width: 1144px;
+  margin: 0 auto;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.dark-1 {
+  color: #252432;
+  font-weight: 700;
+}
+
+.dark-2 {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.dark-3 {
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+}
+
+.dark-4 {
+  color: #8987a1;
+}
+
+.dark-5 {
+  color: #000000;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.primary-color {
+  color: rgb(233, 90, 8);
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
