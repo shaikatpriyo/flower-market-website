@@ -232,6 +232,7 @@
 .deal {
   position: relative;
   overflow: hidden;
+  border-radius: 16px;
 }
 
 .deal::before {
